@@ -96,6 +96,7 @@ a.logo {
     width: 300px; 
     border-radius: 0 0 25px 0;
     position: relative;
+    margin: 10px; 
 }
 .mid-container{
     position: relative;
@@ -103,7 +104,6 @@ a.logo {
     margin: 0 auto; 
     padding: 30px; 
 }
-
 
 .column img{
     width: 100%; 
@@ -132,7 +132,69 @@ a.logo {
     font-size: 13px;
     margin-top: 4px;
 }
+/*----------------------*/
 
+.column-bottom{
+    /*position: absolute; */
+    position: relative;
+    float: right;
+    width: 300px;
+    padding: 0 24px;
+    height: 216px;
+    background: url(images/images/small_cube_bg.png);
+    margin: 10px; 
+}
+.bottom-container{
+    position: relative;
+    width: 1200px; 
+    margin: 0 auto; 
+    padding: 30px; 
+}
+
+.column-bottom h3{
+    position: relative;
+    height: 34px;
+    right: 4px;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    top: -15px; 
+}
+
+.img-israelr{
+    float: left;  
+}
+
+.list-rigth{
+    float: right; 
+}
+
+/*-------------------------------------------------------*/
+.footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background:#999;
+ }
+ 
+ .footer ul{
+    display: block; 
+    margin: 10px; 
+    text-align: center; 
+}
+
+.footer ul li{
+    display: inline;  
+    padding: 5px; 
+} 
+
+.footer ul li a:hover{
+    color: lightskyblue; 
+    text-decoration: underline; 
+} 
 
 
 
