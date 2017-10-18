@@ -14,7 +14,7 @@ body{
 
   .main-container{
       width: 900;
-      height: 754px;
+      height: 850px;
       border: 1px solid red;
       /*background-color: grey; */
   }
@@ -24,7 +24,8 @@ body{
     width: 100%;
     margin: 0 auto; 
     padding: 30px;
-    background-color: lightgrey;
+    background: linear-gradient(rgb(144, 144, 144) 85%, rgb(180, 180, 180));
+    /*background-color: lightgrey;*/
     /*display: block;*/
 }
 
@@ -93,11 +94,12 @@ a.logo {
     /*position: absolute; */
     float: right;
     border: 1px solid blue; 
-    width: 300px; 
+    width: 295px; 
     border-radius: 0 0 25px 0;
     position: relative;
     margin: 10px; 
 }
+
 .mid-container{
     position: relative;
     width: 1200px; 
@@ -138,7 +140,7 @@ a.logo {
     /*position: absolute; */
     position: relative;
     float: right;
-    width: 300px;
+    width: 292px;
     padding: 0 24px;
     height: 216px;
     background: url(images/images/small_cube_bg.png);
@@ -164,6 +166,22 @@ a.logo {
 
 .img-israelr{
     float: left;  
+}
+
+/*-----------------------------------*/
+
+.column-sub{
+
+}
+.img-israel-left{
+    float: left;
+    /*margin: -16px;*/
+    /*position: relative;*/
+}
+
+.img-israel-left img{
+    display: block; 
+    margin-top: -30%; 
 }
 
 .list-rigth{
