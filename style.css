@@ -134,6 +134,10 @@ a.logo {
     font-size: 13px;
     margin-top: 4px;
 }
+
+#txt-underline{
+    text-decoration: underline;
+}
 /*----------------------*/
 
 .column-bottom{
@@ -151,6 +155,8 @@ a.logo {
     width: 1200px; 
     margin: 0 auto; 
     padding: 30px; 
+    margin-top: -60px; 
+    margin-right: 45px; 
 }
 
 .column-bottom h3{
@@ -170,9 +176,6 @@ a.logo {
 
 /*-----------------------------------*/
 
-.column-sub{
-
-}
 .img-israel-left{
     float: left;
     /*margin: -16px;*/
@@ -186,6 +189,17 @@ a.logo {
 
 .list-rigth{
     float: right; 
+}
+
+.list-rigth ul{
+    list-style: none; 
+    margin-right: -20px; 
+    margin-top: -10px; 
+    font-size: 13px; 
+}
+
+.list-rigth ul li a{
+    text-decoration: underline; 
 }
 
 /*-------------------------------------------------------*/
@@ -207,6 +221,11 @@ a.logo {
 .footer ul li{
     display: inline;  
     padding: 5px; 
+    color: white; 
+} 
+
+.footer ul li a{
+    color: white; 
 } 
 
 .footer ul li a:hover{
@@ -214,5 +233,12 @@ a.logo {
     text-decoration: underline; 
 } 
 
+#lawsuit a{
+    color: red; 
+}
 
+.footer ul #lawsuit a:hover{
+    color: lightskyblue; 
+    text-decoration: underline; 
+} 
 
