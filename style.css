@@ -55,7 +55,8 @@ body{
 .top-nav ul{
     display: block; 
     margin: 0 143px 0 0;
-    float: left; 
+    /*float: left; */
+
 }
 
 .top-nav ul li{
@@ -66,8 +67,9 @@ body{
 .top-nav ul li a{
     margin: 10px;  
     padding: 5px; 
-    
-    
+    color: white; 
+    font-size: 15px;
+    font-weight: bold; 
 } 
 
 a.logo {
@@ -76,7 +78,7 @@ a.logo {
     height: 93px;
     position: absolute;
     bottom: -30px;
-    right: 160px;
+    right: 50px;
     z-index: 1; 
 }
 
@@ -228,6 +230,7 @@ a.logo {
 
 .footer ul li a{
     color: white; 
+    font-size: 14px;
 } 
 
 .footer ul li a:hover{
