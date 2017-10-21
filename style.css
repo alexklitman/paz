@@ -19,35 +19,19 @@ body{
   .main-container{
       width: 100%;
       height: 850px;
-      border: 1px solid red;
+      /*border: 1px solid red;*/
+      position: relative;
       /*background-color: grey; */
   }
 
+  /*-------------------------------------------*/
+  /*header container + nav + logo + search list*/
 .center-container{
-    /*border: 3px solid black;*/
     width: 100%;
     margin: 0 auto; 
-    padding: 30px;
+    padding: 40px;
     background: linear-gradient(rgb(144, 144, 144) 85%, rgb(180, 180, 180));
-    /*background-color: lightgrey;*/
-    /*display: block;*/
-}
-
-.englhsh-btn{
-    position: relative;
-    list-style: none;
-    
-}
- a{
-    text-decoration: none;         
- }
-
-.top-nav{
-    height: 33px;
-    position: relative;
-    top: 33px;
-    margin-bottom: 10px; 
-   
+    position: absolute; 
 }
 
 .center-container::after {
@@ -56,34 +40,127 @@ body{
     display: table;
 }
 
+ a{
+    text-decoration: none;         
+ }
+ 
+/*nav bar*/
+.top-search-container{
+    position: relative;   
+}
+
+.search-btn{
+    position: absolute;
+    left: 162px;
+    top: 1px;
+}
+
+.englhsh-btn{
+    position: absolute;
+    left: 330px;
+    list-style: none;
+    color: white; 
+    font-size: 12px;
+    font-weight: bold;
+    top: 5px;
+}
+
+.input-tex{
+    position: absolute;
+    left: 180px;
+    border-radius: 0 10px 0 0;
+    width: 126px; 
+}
+
+.top-nav{
+    height: 33px;
+    position: relative;
+    top: 47px;
+    margin-bottom: 10px; 
+   
+}
+
 .top-nav ul{
     display: block; 
     margin: 0 143px 0 0;
+    margin-top: -15px; 
+    margin-right: 23%; 
     /*float: left; */
-
 }
 
 .top-nav ul li{
     display: inline;  
-  
 } 
 
 .top-nav ul li a{
-    margin: 10px;  
-    padding: 5px; 
+    /*margin: 10px;*/
+    padding: 15px; 
     color: white; 
     font-size: 15px;
     font-weight: bold; 
 } 
+/*------------------------------------*/
 
+
+li {
+    float: right;    
+}
+
+
+li a:hover, .dropdown:hover .dropbtn {
+    /*background-color: red;*/
+    color: rgb(0,92,160); 
+}
+
+li.dropdown {
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(144, 144, 144);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(188,188,188);
+    color: rgb(0,92,160); 
+    text-decoration: underline; 
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*------------------------------------*/
 a.logo {
     display: block; 
     width: 142px;
     height: 93px;
     position: absolute;
-    bottom: -30px;
-    right: 50px;
+    bottom: -25px;
+    right: 125px;
     z-index: 1; 
+}
+
+#home-pic{
+    position: absolute;
+    right: 270px;
+    top: 3px; 
+}
+
+#img-sep{
+    color: rgb(165,165,165)
 }
 
 /*--------------------------------------*/
@@ -107,11 +184,12 @@ a.logo {
 }
 
 .mid-container{
-    position: relative;
-    width: 1200px; 
+    position: absolute;
+    width: 100%; 
     margin: 0 auto;
     padding: 30px; 
     margin-right: 10%; 
+    margin-top: 8%; 
 }
 
 .column img{
@@ -204,11 +282,11 @@ a.readMore span {
 }
 
 .bottom-container{
-    position: relative;
-    width: 1200px; 
+    position: absolute;
+    width: 100%; 
     margin: 0 auto; 
     padding: 37px; 
-    margin-top: -65px; 
+    margin-top: 38%; 
     margin-right: 10%; 
 }
 
@@ -256,19 +334,21 @@ a.readMore span {
     margin-right: -40px; 
     margin-top: -10px; 
     font-size: 13px; 
+    
 }
 
-.list-rigth ul li{
+/*.list-rigth ul li{
     padding: 3px; 
     margin-left: 20px; 
-}
+}*/
 
-.list-rigth ul li a{
+.list-rigth ul a{
     text-decoration: underline; 
     color: rgb(114,113,130);  
+    line-height: 150%;
 }
 
-.list-rigth ul li a:hover{
+.list-rigth ul a:hover{
     color: rgb(0,92,160); 
 }
 
@@ -287,6 +367,7 @@ a.readMore span {
     display: block; 
     margin: 10px; 
     text-align: center; 
+    margin-right: 10%; 
 }
 
 .footer ul li{
@@ -298,6 +379,7 @@ a.readMore span {
 .footer ul li a{
     color: white; 
     font-size: 14px;
+   
 } 
 
 .footer ul li a:hover{
