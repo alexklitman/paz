@@ -236,6 +236,13 @@ a.logo {
     margin-right: 150px; 
 }
 
+#txt-underline:hover{
+    text-decoration: underline;
+    font-size: 13px;
+    margin-right: 150px; 
+    color: rgb(0,92,160); ;
+}
+
 #txt-underline-white{
     text-decoration: underline white;
     font-size: 13px;
