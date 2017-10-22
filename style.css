@@ -65,6 +65,11 @@ body{
     top: 5px;
 }
 
+.englhsh-btn:hover{
+    color: rgb(0,92,160); 
+    text-decoration: underline; 
+}
+
 .input-tex{
     position: absolute;
     left: 180px;
@@ -100,7 +105,7 @@ body{
     font-weight: bold; 
 } 
 /*------------------------------------*/
-
+/*dropdown list*/
 
 li {
     float: right;    
@@ -120,7 +125,7 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(144, 144, 144);
+    background-color: rgb(144, 144, 144); 
     z-index: 1;
 }
 
@@ -129,6 +134,7 @@ li.dropdown {
     text-decoration: none;
     display: block;
     text-align: right;
+    border-bottom: 1px solid rgb(200,200,200);
 }
 
 .dropdown-content a:hover {
@@ -156,7 +162,8 @@ a.logo {
 #home-pic{
     position: absolute;
     right: 270px;
-    top: 3px; 
+    top: 0px; 
+
 }
 
 #img-sep{
@@ -165,7 +172,6 @@ a.logo {
 
 /*--------------------------------------*/
 /*mid section*/
-
 
 .row:after {
   content: "";
@@ -209,18 +215,6 @@ a.logo {
     padding: 10px; 
 }
 
-/*.txt-containe{
-    width: 228px;
-    height: 77px;
-    overflow: hidden;
-    padding: 10px;
-    position: absolute;
-    left: 38px;
-    bottom: 6px;
-    color: #fff;
-    background: url(../images/hp_tab_text_bg.png) no-repeat 0 0;
-}*/
-
 .txt-container h3{ 
     font-size: 14px;
     font-weight: bold;
@@ -248,10 +242,16 @@ a.logo {
     margin-right: 150px; 
 }
 
-/*#white-dot{
-    width: 8px;
-    height: 9px;
-}*/
+#txt-underline-white:hover{
+    text-decoration: underline rgb(0,92,160); ;
+    font-size: 13px;
+    margin-right: 150px; 
+}
+
+
+#txt-underline-white span:hover{
+    color: rgb(0,92,160); 
+}
 
 a.readMore {
     background: url(images/images/read_more_white.png) no-repeat left center;
@@ -356,7 +356,7 @@ a.readMore span {
 /*-------------------------------------------------------*/
 .footer{
     position:fixed;
-    left:0px;
+    right:0px;
     bottom:0px;
     height:50px;
     width:100%;
